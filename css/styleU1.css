@@ -184,6 +184,7 @@ img {
     transition: transform 0.8s ease-in-out;
     font-style: bold;
     font-size: large;
+    color:white;
 }
 
 .titleTema {
