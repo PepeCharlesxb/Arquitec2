@@ -30,7 +30,7 @@
         <p>
             La Unidad de Procesamiento (CPU) controla el funcionamiento del computador y lleva a cabo sus funciones de procesamiento de datos. Frecuentemente se le llama procesador. Un procesador, incluye tanto registros visibles por el usuario como registros de control/estado. Los registros visibles por el usuario pueden ser de uso general o tener una utilidad especial, mientras que los registros de control y estado se usan para controlar el funcionamiento del procesador, un claro ejemplo es el contador de programa. Lleva a cabo una gran variedad de cálculos, comparaciones numéricas y transferencias de datos como respuesta a las peticiones de los programas que están siendo ejecutados en memoria.
         </p>
-        <img src="estructuradelprocesador.jpg" alt="Estructura del procesador" width="450px">
+       
     </article>
     
     <article>
@@ -38,12 +38,13 @@
         <p>
             Los registros del CPU se emplean para controlar las instrucciones en ejecución, manejar direccionamiento de memoria y propiciar la capacidad aritmética. Los registros vienen de tres tipos: datos, direcciones e índice, que tienen lugar en casi todos los aspectos de la operación del CPU. El tamaño de un registro depende del CPU; los más simples tienen registros que aceptan 8 o 16 bits de datos y los más complejos tienen registros de 32, 48 o 64 bits.
         </p>
-        <img src="registros2.jpg" alt="Estructura de registros" width="450px">
+      
     </article>
     
     <article>
         <h2 id="2.2.1">2.2.1 Registros visibles para el usuario</h2>
         <p>
+            <img src="../Imagenes/visibles.webp" alt="" style="width: 400px; float: right; margin: 10px 10px; ">
             Un registro visible al usuario es aquél que puede ser referenciado por medio del lenguaje máquina que ejecuta la CPU. Prácticamente todos los diseños contemporáneos de CPUs están provistos de varios registros visibles al usuario, en oposición a disponer de un único acumulador. Podemos clasificarlos en:
         </p>
         <ul>
@@ -93,6 +94,7 @@
     <article>
         <h2 id="2.2.3">2.2.3 Ejemplos de registros de CPU reales</h2>
         <p>
+            <img src="../Imagenes/registross.jpg" alt="Ejemplos de CPU reales" width="350px" style="float: right;margin: 10px;">
             <b>x86:</b><br>
             EAX, EBX, ECX, EDX (Propósito General) <br>
             ESP (Puntero de Pila) <br>
@@ -106,24 +108,26 @@
             PC (Contador de Programa) <br>
             CPSR (Registro de Estado)
         </p>
-        <img src="cpu_reales.jpg" alt="Ejemplos de CPU reales" width="450px">
+   
     </article>
     
     <article>
         <h2 id="2.3">2.3 El ciclo de instrucción</h2>
         <p>
+            <img src="../Imagenes/Ciclo.webp" alt="" style="width: 250px; float: left; margin: 0px 10px;" >
             La mayor parte de los trabajos de la CPU se llevan a cabo bajo el control de la instrucción, de acuerdo a una secuencia impuesta por el programa en ejecución. Este proceso incluye la captura de la instrucción, su decodificación, la lectura de los operandos, la ejecución de la instrucción, y la escritura del resultado.
+
         </p>
         <p>
             El ciclo de instrucción (que se muestra en la figura a continuación) es un proceso de varios pasos, que incluye: captura de la instrucción, decodificación de la instrucción, ejecución de la instrucción y almacenamiento del resultado.
         </p>
-        <img src="ciclo_instruccion.jpg" alt="Ciclo de instrucción" width="450px">
-    </article>
+           </article>
     
     <article>
         <h2 id="2.3.1">2.3.1 Ciclo Fetch-Decode-Execute</h2>
         <p>
             Los pasos del ciclo de instrucción se detallan a continuación:
+            <img src="../Imagenes/Fetch.jpg" alt="" style="width: 250px; height: 190px; float: right; margin: 10px;">
         </p>
         <ol>
             <li><b>Traer la Instrucción:</b> Obtener la instrucción desde la memoria.</li>
@@ -201,5 +205,16 @@
             <li><a href="#2.4 Casos de estudio de CPU reales">2.4 Casos de estudio de CPU reales</a></li>
         </ul>
     </aside>
+    <style>
+        
+        body {
+            background-image: url('../Imagenes/fondou222.webp');
+            background-clip: border-box;
+            backdrop-filter: blur(2px);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+            </style>
 </body>
 </html>
